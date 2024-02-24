@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  /* color: white; */
+}
+
+.App-link {
+  color: #1d6c81;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#submitBtn{
+  border: 5px rgb(64, 71, 77);
+  border-radius: 5px;
+  width: 100px;
+  background-color: #1d6c81;
+  color: white;
+}
+#submitBtn:hover{
+  background-color: #14596c;
+  border-color: aliceblue;
+}
+
+.tasktag{
+  
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 850px;
+
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #ced4da;
+    padding: 10px 20px;
+
+}
+.theTask{
+  display: flex;
+
+}
+
+#checkbox{
+  margin: 5px;
+}
+
+#deletebtn{
+  border-radius: 5px;
+  border-color: lightgray;
+}
+#deletebtn:hover{
+  background-color: #e7858d;
+  border-color: lightgray;
+}
+
+.navlinks{
+  color: white;
+  text-decoration: none;
+}
+
